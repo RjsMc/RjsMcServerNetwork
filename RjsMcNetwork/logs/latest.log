@@ -1,0 +1,33 @@
+[14:28:38] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-02cf3490-b552)...
+[14:28:38] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[14:28:38] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
+[14:28:38] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[14:28:38] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
+[14:28:38] [Netty NIO Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[14:28:38] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (0.65s)!
+[14:28:43] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] RjsMc (/127.0.0.1:49773) has connected
+[14:28:43] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has connected
+[14:28:57] [Netty NIO Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] RjsMc (/127.0.0.1:49773): unable to connect to server murderrungame
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: getsockopt: /0.0.0.0:25470
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:973) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:384) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[14:29:03] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] RjsMc (/127.0.0.1:49773) has disconnected
+[14:29:03] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has disconnected
+[14:30:09] [Thread-0/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
+[14:30:09] [Thread-0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565
