@@ -20,7 +20,7 @@ settings:
   log-named-deaths: true
   timeout-time: 60
   restart-on-crash: true
-  restart-script: ./start.sh
+  restart-script: . start.sh
   sample-count: 12
   netty-threads: 4
   attribute:
