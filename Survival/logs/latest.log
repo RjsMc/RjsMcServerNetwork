@@ -1,91 +1,96 @@
-[15:52:43] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Red Hat, Inc. (Red_Hat-21.0.8.0.9-1)) on Linux 5.14.0-621.el9.x86_64 (amd64)
-[15:52:43] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) for Minecraft 1.21.8
-[15:52:44] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:52:44] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/DiscordSRV-Build-1.30.1.jar'...
-[15:52:46] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/DiscordSRV-Build-1.30.1.jar' in 2291ms.
-[15:52:46] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[15:52:46] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+[16:47:17] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Red Hat, Inc. (Red_Hat-21.0.8.0.9-1)) on Linux 5.14.0-621.el9.x86_64 (amd64)
+[16:47:17] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) for Minecraft 1.21.8
+[16:47:17] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:47:18] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[16:47:18] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
  - DiscordSRV (1.30.1)
-[15:52:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:52:51] [ServerMain/INFO]: Loaded 1407 recipes
-[15:52:51] [ServerMain/INFO]: Loaded 1520 advancements
-[15:52:51] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[15:52:52] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 391.7ms
-[15:52:52] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[15:52:52] [Server thread/INFO]: Loading properties
-[15:52:52] [Server thread/INFO]: This server is running Paper version 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[15:52:52] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:52:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:52:52] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:52:53] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[15:52:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[15:52:53] [Server thread/INFO]: Default game type: SURVIVAL
-[15:52:53] [Server thread/INFO]: Generating keypair
-[15:52:53] [Server thread/INFO]: Starting Minecraft server on *:25468
-[15:52:53] [Server thread/INFO]: Using epoll channel type
-[15:52:53] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:52:53] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[15:52:54] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.30.1
-[15:52:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:52:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:52:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:52:54] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[15:52:54] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
-[15:52:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:52:54] [Server thread/INFO]: Preparing level "survival"
-[15:52:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:52:54] [Server thread/INFO]: Preparing spawn area: 0%
-[15:52:55] [Server thread/INFO]: Preparing spawn area: 0%
-[15:52:55] [Server thread/INFO]: Time elapsed: 733 ms
-[15:52:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:52:55] [Server thread/INFO]: Preparing spawn area: 0%
-[15:52:55] [Server thread/INFO]: Time elapsed: 106 ms
-[15:52:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:52:55] [Server thread/INFO]: Preparing spawn area: 0%
-[15:52:55] [Server thread/INFO]: Time elapsed: 48 ms
-[15:52:55] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.30.1
-[15:52:55] [Server thread/INFO]: [spark] Starting background profiler...
-[15:52:55] [Server thread/INFO]: Done preparing level "survival" (1.732s)
-[15:52:55] [Server thread/INFO]: Running delayed init tasks
-[15:52:55] [Server thread/INFO]: Done (12.490s)! For help, type "help"
-[15:52:56] [pool-13-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (1cc66c00dd0d091057d8a04adf1cc0714d8391ad)
-[15:52:56] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[15:52:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[15:52:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[15:52:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
-[15:52:58] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 3/3 guilds (0 cancelled)
-[15:54:52] [Server thread/INFO]: Stopping the server
-[15:54:52] [Server thread/INFO]: Stopping server
-[15:54:52] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.30.1
-[15:54:52] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 420ms
-[15:54:53] [Server thread/INFO]: Saving players
-[15:54:53] [Server thread/INFO]: Saving worlds
-[15:54:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival]'/minecraft:overworld
-[15:54:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'survival'
-[15:54:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'survival'
-[15:54:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'survival'
-[15:54:53] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'survival' in 0.08s
-[15:54:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'survival'
-[15:54:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'survival'
-[15:54:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival_nether]'/minecraft:the_nether
-[15:54:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'survival_nether'
-[15:54:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'survival_nether'
-[15:54:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'survival_nether'
-[15:54:53] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'survival_nether' in 0.03s
-[15:54:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'survival_nether'
-[15:54:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'survival_nether'
-[15:54:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival_the_end]'/minecraft:the_end
-[15:54:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'survival_the_end'
-[15:54:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'survival_the_end'
-[15:54:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'survival_the_end'
-[15:54:53] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'survival_the_end' in 0.02s
-[15:54:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'survival_the_end'
-[15:54:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'survival_the_end'
-[15:54:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
-[15:54:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:54:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:54:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:54:53] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[15:54:53] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[15:54:53] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[15:54:53] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[16:47:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:47:23] [ServerMain/INFO]: Loaded 1407 recipes
+[16:47:23] [ServerMain/INFO]: Loaded 1520 advancements
+[16:47:23] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[16:47:24] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 310.8ms
+[16:47:24] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[16:47:24] [Server thread/INFO]: Loading properties
+[16:47:24] [Server thread/INFO]: This server is running Paper version 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[16:47:24] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:47:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:47:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:47:24] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[16:47:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[16:47:25] [Server thread/INFO]: Default game type: SURVIVAL
+[16:47:25] [Server thread/INFO]: Generating keypair
+[16:47:25] [Server thread/INFO]: Starting Minecraft server on *:25468
+[16:47:25] [Server thread/INFO]: Using epoll channel type
+[16:47:25] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:47:25] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[16:47:25] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.30.1
+[16:47:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:47:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:47:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:47:25] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[16:47:25] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[16:47:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:47:25] [Server thread/INFO]: Preparing level "survival"
+[16:47:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:47:26] [Server thread/INFO]: Preparing spawn area: 0%
+[16:47:26] [Server thread/INFO]: Preparing spawn area: 6%
+[16:47:26] [Server thread/INFO]: Time elapsed: 788 ms
+[16:47:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:47:26] [Server thread/INFO]: Preparing spawn area: 0%
+[16:47:27] [Server thread/INFO]: Time elapsed: 155 ms
+[16:47:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:47:27] [Server thread/INFO]: Preparing spawn area: 0%
+[16:47:27] [Server thread/INFO]: Time elapsed: 78 ms
+[16:47:27] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.30.1
+[16:47:27] [Server thread/INFO]: [spark] Starting background profiler...
+[16:47:27] [Server thread/INFO]: Done preparing level "survival" (1.915s)
+[16:47:27] [Server thread/INFO]: Running delayed init tasks
+[16:47:27] [Server thread/INFO]: Done (10.924s)! For help, type "help"
+[16:47:27] [User Authenticator #0/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
+[16:47:27] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [DiscordSRV]
+[16:47:27] [pool-12-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (1cc66c00dd0d091057d8a04adf1cc0714d8391ad)
+[16:47:28] [Server thread/INFO]: RjsMc joined the game
+[16:47:28] [Server thread/INFO]: RjsMc[/96.231.192.233:59634] logged in with entity id 89 at ([survival]-33.32380573934496, 67.0, 21.518668004119988)
+[16:47:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[16:47:28] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[16:47:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[16:47:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
+[16:47:30] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 3/3 guilds (0 cancelled)
+[16:47:34] [Server thread/INFO]: RjsMc issued server command: /stop
+[16:47:34] [Server thread/INFO]: [RjsMc: Stopping the server]
+[16:47:34] [Server thread/INFO]: Stopping server
+[16:47:34] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.30.1
+[16:47:34] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 177ms
+[16:47:34] [Server thread/INFO]: Saving players
+[16:47:34] [Server thread/INFO]: RjsMc lost connection: Server closed
+[16:47:34] [Server thread/INFO]: RjsMc left the game
+[16:47:34] [Server thread/INFO]: Saving worlds
+[16:47:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival]'/minecraft:overworld
+[16:47:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'survival'
+[16:47:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'survival'
+[16:47:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'survival'
+[16:47:35] [Server thread/INFO]: [ChunkHolderManager] Saved 586 block chunks, 586 entity chunks, 0 poi chunks in world 'survival' in 0.50s
+[16:47:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'survival'
+[16:47:35] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'survival'
+[16:47:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival_nether]'/minecraft:the_nether
+[16:47:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'survival_nether'
+[16:47:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'survival_nether'
+[16:47:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'survival_nether'
+[16:47:35] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'survival_nether' in 0.02s
+[16:47:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'survival_nether'
+[16:47:35] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'survival_nether'
+[16:47:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival_the_end]'/minecraft:the_end
+[16:47:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'survival_the_end'
+[16:47:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'survival_the_end'
+[16:47:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'survival_the_end'
+[16:47:35] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'survival_the_end' in 0.01s
+[16:47:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'survival_the_end'
+[16:47:35] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'survival_the_end'
+[16:47:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
+[16:47:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:47:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:47:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:47:35] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[16:47:35] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[16:47:35] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[16:47:35] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

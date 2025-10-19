@@ -1,19 +1,66 @@
-[15:07:21] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-02cf3490-b552)...
-[15:07:21] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[15:07:21] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
-[15:07:21] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[15:07:21] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
-[15:07:21] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
-[15:07:21] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (0.52s)!
-[15:07:28] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] RjsMc (/96.231.192.233:51422) has connected
-[15:07:28] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has connected
-[15:07:34] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> limbo has connected
-[15:07:34] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has disconnected
-[15:07:39] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has connected
-[15:07:39] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> limbo has disconnected
-[15:07:43] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> limbo has connected
-[15:07:43] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has disconnected
-[15:08:33] [Thread-2/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
-[15:08:33] [Thread-2/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565
-[15:08:33] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] RjsMc (/96.231.192.233:51422) has disconnected: Proxy shutting down.
-[15:08:33] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> limbo has disconnected
+[16:42:44] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-02cf3490-b552)...
+[16:42:44] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[16:42:44] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[16:42:44] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[16:42:44] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin luckperms 5.5.17 by Luck
+[16:42:44] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 2 plugins
+[16:42:47] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading configuration...
+[16:42:47] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:         __    
+[16:42:47] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |    |__)   LuckPerms v5.5.17
+[16:42:47] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |___ |      Running on Velocity - Velocity
+[16:42:47] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[16:42:47] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading storage provider... [H2]
+[16:42:47] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading internal permission managers...
+[16:42:48] [LuckPerms - Task Executor #0/INFO] [luckperms]: Performing initial data load...
+[16:42:48] [LuckPerms - Task Executor #0/INFO] [luckperms]: Successfully enabled. (took 3096ms)
+[16:42:48] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[16:42:48] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (3.76s)!
+[16:43:23] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] RjsMc (/96.231.192.233:49705) has connected
+[16:43:23] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has connected
+[16:43:50] [luckperms-command-executor/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [LP] Set luckperms.* to true for rjsmc in context global.
+[16:44:28] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> survival has connected
+[16:44:29] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has disconnected
+[16:44:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] RjsMc (/96.231.192.233:49705): kicked from server survival: Server is restarting
+[16:44:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> survival has disconnected
+[16:44:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has connected
+[16:45:43] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> survival has connected
+[16:45:44] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has disconnected
+[16:45:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] RjsMc (/96.231.192.233:49705): kicked from server survival: Server is restarting
+[16:45:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> survival has disconnected
+[16:45:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has connected
+[16:46:12] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> survival has connected
+[16:46:13] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has disconnected
+[16:46:38] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] RjsMc (/96.231.192.233:49705): kicked from server survival: Server closed
+[16:46:38] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> survival has disconnected
+[16:46:38] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has connected
+[16:47:26] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> survival has connected
+[16:47:27] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has disconnected
+[16:47:34] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] RjsMc (/96.231.192.233:49705): kicked from server survival: Server closed
+[16:47:34] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> survival has disconnected
+[16:47:34] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has connected
+[16:53:06] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] RjsMc (/96.231.192.233:49705): unable to connect to server limbo
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /0.0.0.0:25466
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:55:21] [Thread-4/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
+[16:55:21] [Thread-4/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565
+[16:55:21] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] RjsMc (/96.231.192.233:49705) has disconnected: Proxy shutting down.
+[16:55:21] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has disconnected
+[16:55:21] [LuckPerms - Task Executor #17/INFO] [luckperms]: Starting shutdown process...
+[16:55:21] [LuckPerms - Task Executor #17/INFO] [luckperms]: Closing storage...
+[16:55:22] [LuckPerms - Task Executor #17/INFO] [luckperms]: Goodbye!
