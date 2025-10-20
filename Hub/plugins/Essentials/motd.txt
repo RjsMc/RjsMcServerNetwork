@@ -1,0 +1,4 @@
+&bWelcome, {PLAYER}&b!
+&3=== Changelogs ===
+&f- Building lobbies
+&3==================

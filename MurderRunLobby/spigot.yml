@@ -163,6 +163,8 @@ world-settings:
     merge-radius:
       exp: -1.0
       item: 0.5
+  worldeditregentempworld:
+    verbose: false
 config-version: 12
 commands:
   silent-commandblock-console: false
