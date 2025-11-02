@@ -1,219 +1,52 @@
-[00:00:21] [Server thread/INFO]: RjsMc issued server command: /worldedit reload
-[00:00:21] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[00:01:15] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[00:01:15] [Server thread/INFO]: RjsMc left the game
-[00:01:20] [User Authenticator #5/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[00:01:20] [Server thread/INFO]: RjsMc joined the game
-[00:01:20] [Server thread/INFO]: RjsMc[/96.231.192.233:33778] logged in with entity id 18 at ([murderrunlobby]8.0, 62.0, 8.0)
-[00:01:24] [Server thread/INFO]: RjsMc issued server command: /deop RjsMc
-[00:01:27] [Server thread/INFO]: RjsMc issued server command: /op RjsMc
-[00:01:28] [Server thread/INFO]: RjsMc issued server command: /deop RjsMc
-[00:01:30] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[00:01:30] [Server thread/INFO]: RjsMc left the game
-[00:01:36] [User Authenticator #5/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[00:01:36] [Server thread/INFO]: RjsMc joined the game
-[00:01:36] [Server thread/INFO]: RjsMc[/96.231.192.233:38752] logged in with entity id 19 at ([murderrunlobby]8.0, 62.0, 8.0)
-[00:01:39] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[00:01:39] [Server thread/INFO]: RjsMc left the game
-[00:04:12] [User Authenticator #6/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[00:04:12] [Server thread/INFO]: RjsMc joined the game
-[00:04:12] [Server thread/INFO]: RjsMc[/96.231.192.233:48154] logged in with entity id 20 at ([murderrunlobby]8.0, 62.0, 8.0)
-[00:04:14] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[00:04:14] [Server thread/INFO]: RjsMc left the game
-[00:04:30] [User Authenticator #6/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[00:04:30] [Server thread/INFO]: RjsMc joined the game
-[00:04:30] [Server thread/INFO]: RjsMc[/96.231.192.233:43074] logged in with entity id 21 at ([murderrunlobby]8.0, 62.0, 8.0)
-[00:04:32] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[00:04:32] [Server thread/INFO]: RjsMc left the game
-[00:04:35] [User Authenticator #6/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[00:04:35] [Server thread/INFO]: RjsMc joined the game
-[00:04:35] [Server thread/INFO]: RjsMc[/96.231.192.233:33128] logged in with entity id 22 at ([murderrunlobby]8.0, 62.0, 8.0)
-[00:04:36] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[00:04:36] [Server thread/INFO]: RjsMc left the game
-[00:05:13] [User Authenticator #6/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[00:05:13] [Server thread/INFO]: RjsMc joined the game
-[00:05:13] [Server thread/INFO]: RjsMc[/96.231.192.233:39520] logged in with entity id 23 at ([murderrunlobby]8.0, 62.0, 8.0)
-[00:05:18] [Server thread/INFO]: RjsMc issued server command: /tppos 9 61 9
-[00:05:18] [Server thread/INFO]: [Essentials] RjsMc was denied access to command.
-[00:05:19] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[00:05:19] [Server thread/INFO]: RjsMc left the game
-[00:22:48] [User Authenticator #7/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[00:22:48] [Server thread/INFO]: RjsMc joined the game
-[00:22:48] [Server thread/INFO]: RjsMc[/96.231.192.233:54854] logged in with entity id 24 at ([murderrunlobby]8.0, 62.0, 8.0)
-[00:22:51] [Async Chat Thread - #8/INFO]: <RjsMc> t
-[00:22:52] [Server thread/WARN]: Invalid navigation wand tool set in config. Tool will not be assigned: minecraft:air
-[00:22:53] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[00:22:53] [Server thread/INFO]: RjsMc left the game
-[00:24:53] [User Authenticator #8/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[00:24:54] [Server thread/INFO]: RjsMc joined the game
-[00:24:54] [Server thread/INFO]: RjsMc[/96.231.192.233:45926] logged in with entity id 25 at ([murderrunlobby]8.0, 62.0, 8.0)
-[00:26:02] [Async Chat Thread - #10/INFO]: <RjsMc> &c&lRjsMc is ready for Murder!
-[00:26:04] [Server thread/INFO]: RjsMc issued server command: /op RjsMc
-[00:26:05] [Async Chat Thread - #10/INFO]: <RjsMc> RjsMc is ready for Murder!
-[00:26:30] [Async Chat Thread - #10/INFO]: <RjsMc> RjsMc connected to the Murder Run Lobby!
-[00:26:33] [Async Chat Thread - #10/INFO]: <RjsMc> RjsMc connected to the Murder Run Lobby!
-[00:26:45] [Async Chat Thread - #10/INFO]: <RjsMc> RjsMc connected to the Murder Run Lobby!
-[00:26:50] [Async Chat Thread - #10/INFO]: <RjsMc> RjsMc connected to the Murder Run Lobby!
-[00:26:54] [Async Chat Thread - #10/INFO]: <RjsMc> RjsMc connected to the Murder Run Lobby!
-[00:26:58] [Async Chat Thread - #10/INFO]: <RjsMc> RjsMc connected to the Murder Run Lobby!
-[00:28:48] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[00:28:48] [Server thread/INFO]: RjsMc left the game
-[00:29:56] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /essentials reload
-[00:29:56] [Server thread/INFO]: [Essentials] Loaded 43883 items from items.json.
-[00:29:56] [Server thread/INFO]: [Essentials] Using locale en_US
-[00:29:56] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[00:29:56] [Server thread/INFO]: Essentials reloaded 2.21.2.
-[00:29:59] [User Authenticator #9/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[00:29:59] [Server thread/INFO]: RjsMc[/96.231.192.233:54256] logged in with entity id 26 at ([murderrunlobby]8.0, 62.0, 8.0)
-[00:29:59] [Server thread/INFO]: RjsMc connected to the Murder Run Lobby!
-[00:30:07] [Server thread/INFO]: Unknown or incomplete command, see below for error
-ls<--[HERE]
-[00:30:47] [Server thread/INFO]: RjsMc issued server command: /essentials reload
-[00:30:47] [Server thread/INFO]: [Essentials] Loaded 43883 items from items.json.
-[00:30:47] [Server thread/INFO]: [Essentials] Using locale en_US
-[00:30:47] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[00:30:48] [Async Chat Thread - #12/INFO]: [[MR] RjsMc: test
-[00:31:06] [Server thread/INFO]: RjsMc issued server command: /essentials reload
-[00:31:06] [Server thread/INFO]: [Essentials] Loaded 43883 items from items.json.
-[00:31:06] [Server thread/INFO]: [Essentials] Using locale en_US
-[00:31:06] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[00:31:07] [Async Chat Thread - #12/INFO]: [MR] RjsMc: test
-[00:31:38] [Server thread/INFO]: RjsMc issued server command: /lp editor
-[00:32:10] [luckperms-worker-3/INFO]: [LP] LOG > (RjsMc) [U] (rjsmc)
-[00:32:10] [luckperms-worker-3/INFO]: [LP] LOG > webeditor add group.rjsmc true
-[00:32:10] [luckperms-worker-3/INFO]: [LP] LOG > (RjsMc) [G] (rjsmc)
-[00:32:10] [luckperms-worker-3/INFO]: [LP] LOG > webeditor add group.default true
-[00:32:10] [luckperms-worker-3/INFO]: [LP] LOG > (RjsMc) [G] (rjsmc)
-[00:32:10] [luckperms-worker-3/INFO]: [LP] LOG > webeditor add weight.100 true
-[00:32:11] [TAB Processing Thread/INFO]: [TAB] [WARN] Player RjsMc's group (rjsmc) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[00:32:12] [Async Chat Thread - #14/INFO]: [MR] ✦ RjsMc: t
-[00:32:38] [Server thread/INFO]: RjsMc issued server command: /essentials reload
-[00:32:38] [Server thread/INFO]: [Essentials] Loaded 43883 items from items.json.
-[00:32:38] [Server thread/INFO]: [Essentials] Using locale en_US
-[00:32:38] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[00:32:38] [Async Chat Thread - #14/INFO]: [MR] ✦ RjsMc: t
-[00:32:45] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[00:32:45] [Server thread/INFO]: RjsMc left the game
-[00:33:05] [User Authenticator #10/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[00:33:05] [TAB Processing Thread/INFO]: [TAB] [WARN] Player RjsMc's group (rjsmc) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[00:33:05] [Server thread/INFO]: RjsMc[/96.231.192.233:43674] logged in with entity id 27 at ([murderrunlobby]8.0, 62.0, 8.0)
-[00:33:05] [Server thread/INFO]: RjsMc connected to the Murder Run Lobby!
-[00:33:10] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[00:33:10] [Server thread/INFO]: RjsMc left the game
-[00:33:12] [User Authenticator #10/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[00:33:12] [TAB Processing Thread/INFO]: [TAB] [WARN] Player RjsMc's group (rjsmc) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[00:33:12] [Server thread/INFO]: RjsMc[/96.231.192.233:43686] logged in with entity id 28 at ([murderrunlobby]8.0, 62.0, 8.0)
-[00:33:12] [Server thread/INFO]: RjsMc connected to the Murder Run Lobby!
-[00:38:02] [Server thread/INFO]: RjsMc issued server command: /essentials reload
-[00:38:02] [Server thread/INFO]: [Essentials] Loaded 43883 items from items.json.
-[00:38:02] [Server thread/INFO]: [Essentials] Using locale en_US
-[00:38:02] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[00:38:04] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[00:38:04] [Server thread/INFO]: RjsMc left the game
-[00:41:46] [User Authenticator #11/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[00:41:46] [TAB Processing Thread/INFO]: [TAB] [WARN] Player RjsMc's group (rjsmc) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[00:41:46] [Server thread/INFO]: RjsMc[/96.231.192.233:35890] logged in with entity id 29 at ([murderrunlobby]8.0, 62.0, 8.0)
-[00:41:46] [Server thread/INFO]: RjsMc connected to the Murder Run Lobby!
-[00:41:48] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[00:41:48] [Server thread/INFO]: RjsMc left the game
-[00:41:53] [User Authenticator #11/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[00:41:53] [TAB Processing Thread/INFO]: [TAB] [WARN] Player RjsMc's group (rjsmc) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[00:41:53] [Server thread/INFO]: RjsMc[/96.231.192.233:44684] logged in with entity id 30 at ([murderrunlobby]8.0, 62.0, 8.0)
-[00:41:54] [Server thread/INFO]: RjsMc connected to the Murder Run Lobby!
-[00:41:55] [Async Chat Thread - #16/INFO]: [MR] ✦ RjsMc: test
-[00:41:56] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[00:41:56] [Server thread/INFO]: RjsMc left the game
-[00:46:23] [User Authenticator #12/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[00:46:23] [TAB Processing Thread/INFO]: [TAB] [WARN] Player RjsMc's group (rjsmc) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[00:46:23] [Server thread/INFO]: RjsMc[/96.231.192.233:44010] logged in with entity id 31 at ([murderrunlobby]8.0, 62.0, 8.0)
-[00:46:23] [Server thread/INFO]: RjsMc connected to the Murder Run Lobby!
-[00:46:26] [Server thread/INFO]: RjsMc issued server command: /essentials reload
-[00:46:26] [Server thread/INFO]: [Essentials] Loaded 43883 items from items.json.
-[00:46:26] [Server thread/INFO]: [Essentials] Using locale en_US
-[00:46:26] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[00:46:28] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[00:46:28] [Server thread/INFO]: RjsMc left the game
-[00:46:29] [User Authenticator #12/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[00:46:29] [TAB Processing Thread/INFO]: [TAB] [WARN] Player RjsMc's group (rjsmc) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[00:46:29] [Server thread/INFO]: RjsMc[/96.231.192.233:44016] logged in with entity id 32 at ([murderrunlobby]8.0, 62.0, 8.0)
-[00:46:29] [Server thread/INFO]: RjsMc connected to the Murder Run Lobby!
-[00:46:32] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[00:46:32] [Server thread/INFO]: RjsMc left the game
-[00:47:40] [User Authenticator #13/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[00:47:40] [TAB Processing Thread/INFO]: [TAB] [WARN] Player RjsMc's group (rjsmc) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[00:47:40] [Server thread/INFO]: RjsMc[/96.231.192.233:52238] logged in with entity id 33 at ([murderrunlobby]8.0, 62.0, 8.0)
-[00:47:40] [Server thread/INFO]: RjsMc connected to the Murder Run Lobby!
-[00:47:42] [Server thread/INFO]: RjsMc issued server command: /worldedit reload
-[00:47:42] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[00:47:48] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[00:47:48] [Server thread/INFO]: RjsMc left the game
-[00:47:53] [User Authenticator #13/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[00:47:53] [TAB Processing Thread/INFO]: [TAB] [WARN] Player RjsMc's group (rjsmc) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[00:47:53] [Server thread/INFO]: RjsMc[/96.231.192.233:57620] logged in with entity id 34 at ([murderrunlobby]8.0, 62.0, 8.0)
-[00:47:53] [Server thread/INFO]: RjsMc connected to the Murder Run Lobby!
-[00:48:00] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[00:48:00] [Server thread/INFO]: RjsMc left the game
-[01:18:04] [User Authenticator #14/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[01:18:05] [TAB Processing Thread/INFO]: [TAB] [WARN] Player RjsMc's group (rjsmc) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[01:18:05] [Server thread/INFO]: RjsMc[/96.231.192.233:39920] logged in with entity id 35 at ([murderrunlobby]8.0, 62.0, 8.0)
-[01:18:05] [Server thread/INFO]: RjsMc connected to the Murder Run Lobby!
-[01:18:07] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[01:18:07] [Server thread/INFO]: RjsMc left the game
-[01:52:39] [User Authenticator #15/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[01:52:39] [TAB Processing Thread/INFO]: [TAB] [WARN] Player RjsMc's group (rjsmc) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[01:52:39] [Server thread/INFO]: RjsMc[/96.231.192.233:54392] logged in with entity id 36 at ([murderrunlobby]8.0, 62.0, 8.0)
-[01:52:39] [Server thread/INFO]: RjsMc connected to the Murder Run Lobby!
-[01:52:41] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[01:52:41] [Server thread/INFO]: RjsMc left the game
-[01:53:15] [Server thread/INFO]: Stopping the server
-[01:53:15] [Server thread/INFO]: Stopping server
-[01:53:15] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.2
-[01:53:15] [Server thread/INFO]: [AxiomPaper] Disabling AxiomPaper v5.0.1+1.21.8
-[01:53:15] [Server thread/INFO]: [FancyHolograms] Disabling FancyHolograms v2.8.0
-[01:53:15] [Server thread/INFO]: [TAB] Disabling TAB v5.3.2
-[01:53:15] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully disabled FancyHolograms version 2.8.0
-[01:53:15] [Server thread/INFO]: [TAB] Disabled in 0ms
-[01:53:15] [Server thread/INFO]: [PlayerCarry] Disabling PlayerCarry v1.1
-[01:53:15] [Server thread/INFO]: [RJ_HubPlugin] Disabling RJ_HubPlugin v1.0-SNAPSHOT
-[01:53:15] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
-[01:53:15] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[01:53:15] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.14+2339-43997ec
-[01:53:15] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[01:53:15] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.16+cbf4bd5
-[01:53:15] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[01:53:15] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[01:53:15] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
-[01:53:15] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[01:53:15] [Server thread/INFO]: [LuckPerms] Closing storage...
-[01:53:15] [Server thread/INFO]: [LuckPerms] Goodbye!
-[01:53:15] [Server thread/INFO]: Saving players
-[01:53:16] [Server thread/INFO]: Saving worlds
-[01:53:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[murderrunlobby]'/minecraft:overworld
-[01:53:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'murderrunlobby'
-[01:53:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'murderrunlobby'
-[01:53:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'murderrunlobby'
-[01:53:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'murderrunlobby' in 0.01s
-[01:53:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'murderrunlobby'
-[01:53:16] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'murderrunlobby'
-[01:53:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[murderrunlobby_nether]'/minecraft:the_nether
-[01:53:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'murderrunlobby_nether'
-[01:53:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'murderrunlobby_nether'
-[01:53:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'murderrunlobby_nether'
-[01:53:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'murderrunlobby_nether' in 0.00s
-[01:53:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'murderrunlobby_nether'
-[01:53:16] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'murderrunlobby_nether'
-[01:53:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[murderrunlobby_the_end]'/minecraft:the_end
-[01:53:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'murderrunlobby_the_end'
-[01:53:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'murderrunlobby_the_end'
-[01:53:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'murderrunlobby_the_end'
-[01:53:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'murderrunlobby_the_end' in 0.00s
-[01:53:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'murderrunlobby_the_end'
-[01:53:16] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'murderrunlobby_the_end'
-[01:53:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (murderrunlobby): All chunks are saved
-[01:53:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:53:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:53:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:53:16] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[01:53:16] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[01:53:16] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[01:53:16] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[00:10:44] [Server thread/INFO]: Stopping the server
+[00:10:44] [Server thread/INFO]: Stopping server
+[00:10:44] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.2
+[00:10:44] [Server thread/INFO]: [AxiomPaper] Disabling AxiomPaper v5.0.1+1.21.8
+[00:10:44] [Server thread/INFO]: [FancyHolograms] Disabling FancyHolograms v2.8.0
+[00:10:44] [Server thread/INFO]: [TAB] Disabling TAB v5.3.2
+[00:10:44] [Server thread/INFO]: [TAB] Disabled in 0ms
+[00:10:44] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully disabled FancyHolograms version 2.8.0
+[00:10:44] [Server thread/INFO]: [PlayerCarry] Disabling PlayerCarry v1.1
+[00:10:44] [Server thread/INFO]: [RJ_HubPlugin] Disabling RJ_HubPlugin v1.0-SNAPSHOT
+[00:10:44] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
+[00:10:44] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[00:10:44] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.14+2339-43997ec
+[00:10:44] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[00:10:44] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.16+cbf4bd5
+[00:10:44] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[00:10:44] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[00:10:44] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
+[00:10:44] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[00:10:44] [Server thread/INFO]: [LuckPerms] Closing storage...
+[00:10:44] [Server thread/INFO]: [LuckPerms] Goodbye!
+[00:10:44] [Server thread/INFO]: Saving players
+[00:10:44] [Server thread/INFO]: Saving worlds
+[00:10:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[murderrunlobby]'/minecraft:overworld
+[00:10:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'murderrunlobby'
+[00:10:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'murderrunlobby'
+[00:10:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'murderrunlobby'
+[00:10:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'murderrunlobby' in 0.01s
+[00:10:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'murderrunlobby'
+[00:10:44] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'murderrunlobby'
+[00:10:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[murderrunlobby_nether]'/minecraft:the_nether
+[00:10:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'murderrunlobby_nether'
+[00:10:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'murderrunlobby_nether'
+[00:10:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'murderrunlobby_nether'
+[00:10:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'murderrunlobby_nether' in 0.00s
+[00:10:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'murderrunlobby_nether'
+[00:10:44] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'murderrunlobby_nether'
+[00:10:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[murderrunlobby_the_end]'/minecraft:the_end
+[00:10:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'murderrunlobby_the_end'
+[00:10:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'murderrunlobby_the_end'
+[00:10:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'murderrunlobby_the_end'
+[00:10:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'murderrunlobby_the_end' in 0.01s
+[00:10:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'murderrunlobby_the_end'
+[00:10:44] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'murderrunlobby_the_end'
+[00:10:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (murderrunlobby): All chunks are saved
+[00:10:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:10:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:10:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:10:44] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[00:10:44] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[00:10:44] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[00:10:44] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
