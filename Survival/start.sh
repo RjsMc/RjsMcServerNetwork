@@ -1,4 +1,4 @@
-java -Xms4G -Xmx4G \
+java -Xms6G -Xmx6G \
 	-XX:+UseG1GC \
 	-XX:+UnlockExperimentalVMOptions \
 	-XX:+ParallelRefProcEnabled \

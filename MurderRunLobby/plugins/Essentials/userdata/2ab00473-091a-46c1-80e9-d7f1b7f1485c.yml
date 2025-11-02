@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 96.231.192.233
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1760939561771
+  login: 1760939559770
+money: '0'
+last-account-name: RjsMc
+logoutlocation:
+  world: c8aedc7c-93c8-4072-8daa-6d3820d99fd2
+  world-name: murderrunlobby
+  x: 7.499918797904608
+  y: 61.0
+  z: 9.072323474810926
+  yaw: -61.4155158996582
+  pitch: 34.34620666503906

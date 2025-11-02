@@ -1,0 +1,43 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 96.231.192.233
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1760934176573
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1760940176228
+  login: 1760940173527
+  kits:
+    color: 0
+    dtools: 1760933327178
+    firework: 1760933350062
+    tools: 1760933415534
+money: '0'
+last-account-name: RjsMc
+logoutlocation:
+  world: c8aedc7c-93c8-4072-8daa-6d3820d99fd2
+  world-name: hub
+  x: 8.0
+  y: 61.0
+  z: 8.0
+  yaw: -34.27734375
+  pitch: 19.793014526367188
+lastlocation:
+  world: c8aedc7c-93c8-4072-8daa-6d3820d99fd2
+  world-name: hub
+  x: 8.009718960473554
+  y: 61.0
+  z: 7.514646748473575
+  yaw: -37.549556732177734
+  pitch: 31.66908073425293

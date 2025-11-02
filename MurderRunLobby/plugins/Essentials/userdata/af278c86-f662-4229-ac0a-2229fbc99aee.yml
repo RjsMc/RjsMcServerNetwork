@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 71.255.241.199
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761333677619
+  login: 1761333674127
+money: '0'
+last-account-name: Ratatooota
+logoutlocation:
+  world: c8aedc7c-93c8-4072-8daa-6d3820d99fd2
+  world-name: murderrunlobby
+  x: 8.0
+  y: 61.0
+  z: 8.0
+  yaw: -118.43819427490234
+  pitch: 16.55255126953125
