@@ -27,14 +27,14 @@
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
 # In 1.16+, you can use hex color codes here as well (for example, #613e1d is brown).
-ops-name-color: '4'
+ops-name-color: 'none'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
 # Players with 'essentials.nick.hideprefix' will not be prefixed with the character(s).
-nickname-prefix: '~'
+nickname-prefix: ''
 
 # The maximum length allowed in nicknames. The nickname prefix is not included in this.
-max-nick-length: 15
+max-nick-length: 25
 
 # The regex pattern used to determine if a requested nickname should be allowed for use.
 # If the requested nickname does not match this pattern, the nickname will be rejected.
@@ -97,7 +97,7 @@ force-safe-teleport-location: false
 
 # Consider water blocks as "safe", therefore allowing players to teleport
 # using commands such as /home or /spawn to a location that is occupied by water blocks.
-is-water-safe: false
+is-water-safe: true
 
 # If a player has any passengers, the teleport will fail. Should their passengers be dismounted before they are teleported?
 # If this is set to true, Essentials will dismount the player's passengers before teleporting.
@@ -155,7 +155,7 @@ warn-on-smite: true
 drop-items-if-full: false
 
 # Should Essentials notify players if they have no new mail?
-notify-no-new-mail: true
+notify-no-new-mail: false
 
 # Specifies the cooldown duration, in seconds, between mail notifications for a player.
 # Useful for servers with high mail traffic.
@@ -557,8 +557,8 @@ allow-silent-join-quit: false
 # {ONLINE} - The number of players online.
 # {UNIQUE} - The number of unique players to join the server.
 # {UPTIME} - The amount of time the server has been online.
-custom-join-message: "none"
-custom-quit-message: "none"
+custom-join-message: "&a{PLAYER} &7connected to the &e(Modified) &aSMP&7!"
+custom-quit-message: "&a{PLAYER} &7disconnected."
 
 # You can set a custom join message for players who join with an updated username here.
 # This message will only be used if a player has joined before and has since changed their username.
@@ -951,7 +951,7 @@ chat:
   # Note: The {DISPLAYNAME} placeholder includes {PREFIX} and {SUFFIX} by default.
   # Using these together may result in double prefixes/suffixes in chat.
 
-  format: '<{DISPLAYNAME}> {MESSAGE}'
+  #format: '<{DISPLAYNAME}> {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {NICKNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
@@ -966,7 +966,7 @@ chat:
   # Note: Group names are case-sensitive, so you must match them up with your permissions plugin.
   # Note: If a LuckPerms group display name (alias) is set, you must use it instead of the original group name.
   group-formats:
-    #default: '{WORLDNAME} {DISPLAYNAME}&7:&r {MESSAGE}'
+    default: '&a{WORLD}&a{DISPLAYNAME}&7: &r{MESSAGE}'
     #admins: '{WORLDNAME} &c[{GROUP}]&r {DISPLAYNAME}&7:&c {MESSAGE}'
 
     # You can also specify a format for each type of chat for each group.
@@ -977,6 +977,9 @@ chat:
   # World aliases allow you to replace the world name with something different in the chat format.
   # If using world aliases, remove the # to activate the setting.
   world-aliases:
+    modifiedsurvival: ""
+    modifiedsurvival_nether: "&c🔥&r "
+    modifiedsurvival_the_end: "&5🔥&r "
     #plots: "&dP&r"
     #creative: "&eC&r"
 

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 108.48.188.223
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1762061783345
+  login: 1762061875643
+money: '0'
+last-account-name: Epiphonically
+logoutlocation:
+  world: c8aedc7c-93c8-4072-8daa-6d3820d99fd2
+  world-name: hub
+  x: 8.042170646027655
+  y: 61.0
+  z: 9.24204938299557
+  yaw: -60.74998092651367
+  pitch: -4.800000190734863

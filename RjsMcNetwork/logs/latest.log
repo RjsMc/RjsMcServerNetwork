@@ -1,5 +1,168 @@
-[00:10:42] [Thread-3/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
-[00:10:42] [Thread-3/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565
-[00:10:42] [LuckPerms - Task Executor #117/INFO] [luckperms]: Starting shutdown process...
-[00:10:42] [LuckPerms - Task Executor #117/INFO] [luckperms]: Closing storage...
-[00:10:42] [LuckPerms - Task Executor #117/INFO] [luckperms]: Goodbye!
+[00:22:02] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-02cf3490-b552)...
+[00:22:02] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[00:22:02] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[00:22:02] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[00:22:03] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin luckperms 5.5.17 by Luck
+[00:22:03] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 2 plugins
+[00:22:03] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading configuration...
+[00:22:03] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:         __    
+[00:22:03] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |    |__)   LuckPerms v5.5.17
+[00:22:03] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |___ |      Running on Velocity - Velocity
+[00:22:03] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[00:22:03] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading storage provider... [H2]
+[00:22:03] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading internal permission managers...
+[00:22:03] [LuckPerms - Task Executor #0/INFO] [luckperms]: Performing initial data load...
+[00:22:03] [LuckPerms - Task Executor #0/INFO] [luckperms]: Successfully enabled. (took 779ms)
+[00:22:03] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[00:22:03] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (1.51s)!
+[00:23:17] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] RjsMc (/96.231.192.233:55643) has connected
+[00:23:17] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has connected
+[00:23:22] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] RjsMc (/96.231.192.233:55643): unable to connect to server modifiedsurvival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /0.0.0.0:25471
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[00:23:22] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] RjsMc (/96.231.192.233:55643): unable to connect to server modifiedsurvival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /0.0.0.0:25471
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[00:23:27] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] RjsMc (/96.231.192.233:55643): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /0.0.0.0:25468
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[00:24:23] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> survival has connected
+[00:24:23] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has disconnected
+[00:24:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has connected
+[00:24:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> survival has disconnected
+[00:24:35] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] RjsMc (/96.231.192.233:55643): unable to connect to server modifiedsurvival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /0.0.0.0:25471
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[00:26:05] [Netty epoll Worker #12/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Epiphonically (/108.48.188.223:50261) has connected
+[00:26:05] [Netty epoll Worker #12/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Epiphonically -> hub has connected
+[00:26:15] [Netty epoll Worker #12/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Epiphonically -> modifiedsurvival has connected
+[00:26:15] [Netty epoll Worker #12/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Epiphonically -> hub has disconnected
+[00:26:26] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> modifiedsurvival has connected
+[00:26:26] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has disconnected
+[00:28:33] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> survival has connected
+[00:28:33] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> modifiedsurvival has disconnected
+[00:50:30] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> modifiedsurvival has connected
+[00:50:30] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> survival has disconnected
+[00:50:53] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has connected
+[00:50:53] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> modifiedsurvival has disconnected
+[00:50:55] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> modifiedsurvival has connected
+[00:50:55] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has disconnected
+[00:56:57] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> survival has connected
+[00:56:57] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> modifiedsurvival has disconnected
+[01:01:09] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has connected
+[01:01:09] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> survival has disconnected
+[01:01:17] [Netty epoll Worker #12/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Epiphonically (/108.48.188.223:50261): kicked from server modifiedsurvival: Server closed
+[01:01:17] [Netty epoll Worker #12/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Epiphonically -> modifiedsurvival has disconnected
+[01:01:17] [Netty epoll Worker #12/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Epiphonically -> hub has connected
+[01:03:11] [Netty epoll Worker #12/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Epiphonically (/108.48.188.223:50261): unable to connect to server modifiedsurvival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /0.0.0.0:25471
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-02cf3490-b552)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[01:03:15] [Netty epoll Worker #12/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Epiphonically -> survival has connected
+[01:03:15] [Netty epoll Worker #12/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Epiphonically -> hub has disconnected
+[01:06:24] [Netty epoll Worker #12/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Epiphonically (/108.48.188.223:50261) has disconnected
+[01:06:24] [Netty epoll Worker #12/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Epiphonically -> survival has disconnected
+[01:06:25] [Netty epoll Worker #21/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Epiphonically (/108.48.188.223:53578) has connected
+[01:06:25] [Netty epoll Worker #21/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Epiphonically -> hub has connected
+[01:06:27] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> modifiedsurvival has connected
+[01:06:27] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has disconnected
+[01:06:28] [Netty epoll Worker #21/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Epiphonically -> modifiedsurvival has connected
+[01:06:28] [Netty epoll Worker #21/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Epiphonically -> hub has disconnected
+[01:30:59] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] RjsMc (/96.231.192.233:55643): kicked from server modifiedsurvival: Server closed
+[01:30:59] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> modifiedsurvival has disconnected
+[01:30:59] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has connected
+[01:30:59] [Netty epoll Worker #21/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Epiphonically (/108.48.188.223:53578): kicked from server modifiedsurvival: Server closed
+[01:30:59] [Netty epoll Worker #21/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Epiphonically -> modifiedsurvival has disconnected
+[01:30:59] [Netty epoll Worker #21/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Epiphonically -> hub has connected
+[01:34:50] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> modifiedsurvival has connected
+[01:34:50] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has disconnected
+[01:35:53] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] RjsMc (/96.231.192.233:55643): kicked from server modifiedsurvival: Server closed
+[01:35:53] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> modifiedsurvival has disconnected
+[01:35:53] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] RjsMc -> hub has connected
+[01:36:16] [Netty epoll Worker #21/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Epiphonically (/108.48.188.223:53578) has disconnected
+[01:36:16] [Netty epoll Worker #21/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Epiphonically -> hub has disconnected
+[01:36:17] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Epiphonically (/108.48.188.223:50402) has connected
+[01:36:17] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Epiphonically -> hub has connected
+[01:36:23] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Epiphonically (/108.48.188.223:50402) has disconnected
+[01:36:23] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Epiphonically -> hub has disconnected
+[01:37:55] [Netty epoll Worker #11/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Epiphonically (/108.48.188.223:62482) has connected
+[01:37:55] [Netty epoll Worker #11/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Epiphonically -> hub has connected

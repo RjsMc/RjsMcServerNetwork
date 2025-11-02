@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 108.48.188.223
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1762059984080
+  login: 1762059795468
+money: '0'
+last-account-name: Epiphonically
+logoutlocation:
+  world: d0ee91a2-9e0a-4972-abc1-e7ac94b00315
+  world-name: survival
+  x: -202.9987687269041
+  y: 128.0
+  z: 254.98855704256587
+  yaw: 37.195220947265625
+  pitch: 43.80012893676758
