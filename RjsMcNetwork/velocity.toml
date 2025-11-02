@@ -82,6 +82,7 @@ hub = "0.0.0.0:25467"
 survival = "0.0.0.0:25468"
 murderrunlobby = "0.0.0.0:25469"
 murderrungame = "0.0.0.0:25470"
+modifiedsurvival = "0.0.0.0:25471"
 
 # In what order we should try servers when a player logs in or is kicked from a server.
 try = [

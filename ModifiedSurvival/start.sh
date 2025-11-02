@@ -1,0 +1,15 @@
+java -Xms4G -Xmx4G \
+	-XX:+UseG1GC \
+	-XX:+UnlockExperimentalVMOptions \
+	-XX:+ParallelRefProcEnabled \
+	-XX:MaxGCPauseMillis=200 \
+	-XX:+AlwaysPreTouch \
+	-XX:G1NewSizePercent=30 \
+	-XX:G1MaxNewSizePercent=40 \
+	-XX:G1HeapRegionSize=8M \
+	-XX:G1ReservePercent=20 \
+	-XX:InitiatingHeapOccupancyPercent=15 \
+	-XX:+PerfDisableSharedMem \
+	-XX:MaxTenuringThreshold=1 \
+	-XX:+UseStringDeduplication \
+	-jar paper.jar nogui
